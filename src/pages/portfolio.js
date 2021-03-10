@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import {Link} from 'react-router-dom';
 
 const PortfolioPage = (props) => {
@@ -7,10 +6,10 @@ const PortfolioPage = (props) => {
     return (
         <div>
             Portfolio Items
-            <Link to='/portfolio/1'>
+            <Link className="link" to='/portfolio/1'>
                 Item One
             </Link>
-            <Link to='/portfolio/2'>
+            <Link className="link" to='/portfolio/2'>
                 Item Two
             </Link>
         </div>
